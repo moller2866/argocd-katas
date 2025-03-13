@@ -4,7 +4,7 @@ metadata:
   name: postgres-pvc
 spec:
   # default. Use `kubectl get sc` too what storage classes are configured
-  storageClassName: "longhorn" # for the on prem storage
+  storageClassName: longhorn-static # for the on prem storage
   accessModes:
     - ReadWriteOnce
   resources:
